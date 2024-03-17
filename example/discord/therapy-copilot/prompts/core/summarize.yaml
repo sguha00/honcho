@@ -1,0 +1,8 @@
+_type: prompt
+input_variables:
+    ["transcript"]
+template: >
+    Here is the transcript between a therapist and their client. The therapist lines are prefixed with T while the client lines are prefixed with C. Generate a SOAP note for the therapist. Be brief
+
+    chat history: ```{transcript}```
+

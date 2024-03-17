@@ -1,0 +1,11 @@
+_type: prompt
+input_variables:
+    ["transcript", "summary"]
+template: >
+    You are tasked with deriving discrete facts about the user based on this transcript and summary. The goal is to only extract absolute facts from the message, do not make inferences beyond the text provided.
+    In the transript, the therapist lines are prefixed with T while the client lines are prefixed with C.
+
+    transcript: ```{transcript}```
+    summary: ```{summary}```
+
+    Output the facts as a numbered list.
